@@ -1,0 +1,20 @@
+- name: FTP Uploader
+  # You may pin to the exact commit or the version.
+  # uses: zinh/ftp-uploader-action@10d256274547c8b84848edf454bfeb0b8a451c41
+  uses: zinh/ftp-uploader-action@v0.4
+  with:
+    # smb://10.25.250.1, eg: ftpHostname: ftp.test
+    ftpHostname: admin
+    # User of ftp account
+    ftpUsername: # optional, default is anonymous
+    # besagt5570
+    ftpPassword: # optional, default is 
+    # List files to upload to ftp server
+    files: 
+    # Source folder
+    src: # optional, default is 
+    # Destination folder
+    dest: # optional, default is /
+    # For debug
+    dryRun: # optional
+ 
